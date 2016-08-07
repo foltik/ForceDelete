@@ -69,10 +69,10 @@ int main(int argc, char *argv[])
 
 	// Delete
 	// del /F /Q (path)
-	// rmdir /Q (path)
+	// rmdir /S /Q (path)
 	cmd("del /F /Q \"%s\"", argv[1]);
 	if (attr == FILE_ATTRIBUTE_DIRECTORY)
-		cmd("rmdir /Q \"%s\"", argv[1]);
+		cmd("rmdir /S /Q \"%s\"", argv[1]);
 
 	if (pause) cmd("pause");
 	return EXIT_SUCCESS;
