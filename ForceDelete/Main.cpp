@@ -5,11 +5,9 @@
 void cmd(const char* fmt, ...) {
 	char buffer[MAX_PATH];
 	va_list args;
-
 	va_start(args, fmt);
 	vsnprintf_s(buffer, sizeof(buffer), fmt, args);
 	va_end(args);
-
 	system(buffer);
 }
 
