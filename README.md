@@ -1,5 +1,5 @@
 # ForceDelete
-##A utility and shell extension that forcefully removes protected files and folders.
+A utility and shell extension that forcefully removes protected files and folders.
 
-##Latest Release
+###Latest Release
 [ForceDelete.exe](ForceDelete/ForceDelete.exe)
