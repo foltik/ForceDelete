@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 	bool pause = false;
 	for (int i = 0; i != argc; i++) {
 		// Help
-		if (!argv[i] || strstr(argv[i], "/?")) {
+		if (!argv[1] || strstr(argv[i], "/?")) {
 			std::cout << "Syntax" << std::endl;
 			std::cout << "   ForceDelete [options]" << std::endl;
 			std::cout << "Key" << std::endl;
